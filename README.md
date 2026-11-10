@@ -5,15 +5,15 @@ and let Kokoro read the other characters while the app follows your spoken lines
 
 ## Download
 
-[SelfTape 1.2.0 preview release](https://github.com/eldiranym/SelfTape/releases/tag/v1.2.0)
+[SelfTape 1.2.1 preview release](https://github.com/eldiranym/SelfTape/releases/tag/v1.2.1)
 
 | Edition | Download | Installed size | Included model |
 | --- | --- | --- | --- |
-| [SelfTape](https://github.com/eldiranym/SelfTape/releases/download/v1.2.0/SelfTape-1.2.0-arm64-preview.dmg) | 412 MB | 522 MB | Full-precision Kokoro |
-| [SelfTape Lite](https://github.com/eldiranym/SelfTape/releases/download/v1.2.0/SelfTape-Lite-1.2.0-arm64-preview.dmg) | 198 MB | 311 MB | 8-bit Kokoro |
+| [SelfTape](https://github.com/eldiranym/SelfTape/releases/download/v1.2.1/SelfTape-1.2.1-arm64-preview.dmg) | 416 MB | 525 MB | Full-precision Kokoro |
+| [SelfTape Lite](https://github.com/eldiranym/SelfTape/releases/download/v1.2.1/SelfTape-Lite-1.2.1-arm64-preview.dmg) | 203 MB | 314 MB | 8-bit Kokoro |
 
 Both include all 54 voices and the offline speech runtime. Lite reduces download
-size by about 52%; it is not a speed upgrade. In our validation on one Mac, Lite
+size by about 51%; it is not a speed upgrade. In our validation on one Mac, Lite
 took about five times as long to generate speech, while still generating faster
 than playback. Quantization can also change the sound. Choose SelfTape unless
 the smaller download and disk footprint are your priority.
@@ -52,3 +52,14 @@ The release also includes `SelfTape-Kokoro-Corresponding-Source.zip`, the matchi
 source for the bundled speech helper and its dependencies. **You do not need
 that source archive to run the app.** `SHA256SUMS.txt` covers both installers and
 the source archive. Component licenses are included with their source materials.
+
+## Easy updates
+
+Version 1.2.1 adds automatic daily update checks and **Check for Updates…** in the
+app menu. When an update is available, choose Install Update, then Install and
+Relaunch. You can switch automatic checks off in the same menu. Update downloads
+and feeds are signed, and each edition stays on its own update feed.
+
+**If you installed 1.2.0, download and install 1.2.1 manually once.** Future updates
+can then happen inside the app. Update checks need internet; rehearsal speech
+remains on your Mac. These previews still require initial macOS approval.
