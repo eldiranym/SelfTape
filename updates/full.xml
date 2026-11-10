@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>SelfTape updates</title>
+    <link>https://github.com/eldiranym/SelfTape</link>
+    <description>Signed application updates</description>
+    <item>
+      <title>SelfTape 1.2.1</title>
+      <pubDate>Tue, 10 Nov 2026 07:30:38 +0000</pubDate>
+      <sparkle:version>20261110072827</sparkle:version>
+      <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description>Adds easy, signed updates from inside the app. Your scripts and voice edition are preserved.</description>
+      <enclosure url="https://github.com/eldiranym/SelfTape/releases/download/v1.2.1/SelfTape-1.2.1-arm64-preview.dmg" length="415846800" type="application/octet-stream" sparkle:edSignature="T2hUjptA6Q25msBL5gtwIjr5+fo8B1XuEbM5qGhGRPLeOovz9U9vDaj71qV2t6stXwzp0xK51MvYrd5lvNLOBg=="></enclosure>
+    </item>
+  </channel>
+</rss><!-- sparkle-signatures:
+edSignature: mudAflvj6+NAnMCPkPaCufIABi2FDw1v3t4NtrRoAD/HFac50X5LeKmW3eE3i6kwUbmkaUgOato4ONgTWMRQCA==
+length: 1292
+-->
