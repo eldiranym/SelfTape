@@ -6,16 +6,16 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/eldiranym/SelfTape</link>
     <description>Signed application updates</description>
     <item>
-      <title>SelfTape 1.2.1</title>
-      <pubDate>Tue, 10 Nov 2026 07:30:38 +0000</pubDate>
-      <sparkle:version>20261110072827</sparkle:version>
-      <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+      <title>SelfTape 1.2.5</title>
+      <pubDate>Mon, 16 Nov 2026 17:56:00 +0000</pubDate>
+      <sparkle:version>20261116170732</sparkle:version>
+      <sparkle:shortVersionString>1.2.5</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <description>Adds easy, signed updates from inside the app. Your scripts and voice edition are preserved.</description>
-      <enclosure url="https://github.com/eldiranym/SelfTape/releases/download/v1.2.1/SelfTape-1.2.1-arm64-preview.dmg" length="415846800" type="application/octet-stream" sparkle:edSignature="T2hUjptA6Q25msBL5gtwIjr5+fo8B1XuEbM5qGhGRPLeOovz9U9vDaj71qV2t6stXwzp0xK51MvYrd5lvNLOBg=="></enclosure>
+      <description>Updates the Studio interface, themes, transcript display and rehearsal timing. Includes 28 English voices across American and British accents. Your scripts and voice edition are preserved.</description>
+      <enclosure url="https://github.com/eldiranym/SelfTape/releases/download/v1.2.5/SelfTape-1.2.5-arm64-preview.dmg" length="371003840" type="application/octet-stream" sparkle:edSignature="wFZNWJFIWWLO4uSM//cfkyQrRJjVenfolrpdkWP3maBvbMolylvtx0OzdSWFVUUZvf+Aq6lIGHoKy2g+dh/4Cw=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: mudAflvj6+NAnMCPkPaCufIABi2FDw1v3t4NtrRoAD/HFac50X5LeKmW3eE3i6kwUbmkaUgOato4ONgTWMRQCA==
-length: 1292
+edSignature: rVqR8a8GGXhNg9MRK0ovtwXFkOVP1DbLZh3MgMLQjp5i5TYHYKPS4z9mP3fZzlea+g293rL98Nqvvwps050NDg==
+length: 1388
 -->
