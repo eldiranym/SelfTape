@@ -5,15 +5,15 @@ and let Kokoro read the other characters while the app follows your spoken lines
 
 ## Download
 
-[SelfTape 1.2.1 preview release](https://github.com/eldiranym/SelfTape/releases/tag/v1.2.1)
+[SelfTape 1.2.5 preview release](https://github.com/eldiranym/SelfTape/releases/tag/v1.2.5)
 
 | Edition | Download | Installed size | Included model |
 | --- | --- | --- | --- |
-| [SelfTape](https://github.com/eldiranym/SelfTape/releases/download/v1.2.1/SelfTape-1.2.1-arm64-preview.dmg) | 416 MB | 525 MB | Full-precision Kokoro |
-| [SelfTape Lite](https://github.com/eldiranym/SelfTape/releases/download/v1.2.1/SelfTape-Lite-1.2.1-arm64-preview.dmg) | 203 MB | 314 MB | 8-bit Kokoro |
+| [SelfTape](https://github.com/eldiranym/SelfTape/releases/download/v1.2.5/SelfTape-1.2.5-arm64-preview.dmg) | 371 MB | 453 MB | Full-precision Kokoro |
+| [SelfTape Lite](https://github.com/eldiranym/SelfTape/releases/download/v1.2.5/SelfTape-Lite-1.2.5-arm64-preview.dmg) | 158 MB | 242 MB | 8-bit Kokoro |
 
-Both include all 54 voices and the offline speech runtime. Lite reduces download
-size by about 51%; it is not a speed upgrade. In our validation on one Mac, Lite
+Both include 28 English voices (20 American and 8 British) and the offline speech runtime. Lite reduces download
+size by about 57%; it is not a speed upgrade. In our validation on one Mac, Lite
 took about five times as long to generate speech, while still generating faster
 than playback. Quantization can also change the sound. Choose SelfTape unless
 the smaller download and disk footprint are your priority.
@@ -26,7 +26,7 @@ On-device speech recognition availability is checked before rehearsal.
 ## Install this preview
 
 Requires Apple Silicon (M-series) and targets macOS 15 or newer. Device testing
-was performed on macOS 27.2; earlier supported versions still need device testing.
+was performed on macOS 27.2.1; earlier supported versions still need device testing.
 
 1. Download either DMG, open it, and drag the app into Applications.
 2. Open the app. These previews use a local signing certificate and **are not
@@ -41,9 +41,10 @@ was performed on macOS 27.2; earlier supported versions still need device testin
 
 - PDF import, including scanned pages with on-device OCR
 - Word DOCX, Final Draft, Fountain and plain-text scripts
-- Character casting from 54 bundled Kokoro voices
+- Character casting from 28 bundled English Kokoro voices
 - Self Tape and Memorize rehearsal modes
-- Offline speech recognition and adjustable reader pace
+- Offline speech recognition, transcript display, adjustable reader pace and pauses
+- Studio interface with light/dark appearance and importable themes
 
 ## Licenses and source
 
@@ -55,11 +56,11 @@ the source archive. Component licenses are included with their source materials.
 
 ## Easy updates
 
-Version 1.2.1 adds automatic daily update checks and **Check for Updates…** in the
+Versions 1.2.1 and newer include automatic daily update checks and **Check for Updates…** in the
 app menu. When an update is available, choose Install Update, then Install and
 Relaunch. You can switch automatic checks off in the same menu. Update downloads
 and feeds are signed, and each edition stays on its own update feed.
 
-**If you installed 1.2.0, download and install 1.2.1 manually once.** Future updates
+**If you installed 1.2.0, download and install 1.2.5 manually once.** Future updates
 can then happen inside the app. Update checks need internet; rehearsal speech
 remains on your Mac. These previews still require initial macOS approval.
