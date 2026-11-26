@@ -6,16 +6,16 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/eldiranym/SelfTape</link>
     <description>Signed application updates</description>
     <item>
-      <title>SelfTape Lite 1.2.5</title>
-      <pubDate>Mon, 16 Nov 2026 17:56:01 +0000</pubDate>
-      <sparkle:version>20261116170844</sparkle:version>
-      <sparkle:shortVersionString>1.2.5</sparkle:shortVersionString>
+      <title>SelfTape Lite 1.2.6</title>
+      <pubDate>Thu, 26 Nov 2026 01:44:39 +0000</pubDate>
+      <sparkle:version>20261126014359</sparkle:version>
+      <sparkle:shortVersionString>1.2.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <description>Updates the Studio interface, themes, transcript display and rehearsal timing. Includes 28 English voices across American and British accents. Your scripts and voice edition are preserved.</description>
-      <enclosure url="https://github.com/eldiranym/SelfTape/releases/download/v1.2.5/SelfTape-Lite-1.2.5-arm64-preview.dmg" length="158186726" type="application/octet-stream" sparkle:edSignature="Owv+oLs6KzWLrcolO8MjCR9eTwdxSTO1EIvtlqr0h+Ueb764LudhLpOXdTu19qz9ym2CbKsU0SmbvuRzI1fkBw=="></enclosure>
+      <description>Native in-process Rust voice &amp; rehearsal engine (no Python sidecar, smaller installers, faster startup), 512 MB persistent speech cache, and improved sides parsing and watermark filtering. Your scripts and voice edition are preserved.</description>
+      <enclosure url="https://github.com/eldiranym/SelfTape/releases/download/v1.2.6/SelfTape-Lite-1.2.6-arm64-preview.dmg" length="131237486" type="application/octet-stream" sparkle:edSignature="YylomdsKpywK6ZXcMEQ6B1NEjAO1PBItC6YnnRGnOXSs8XecJw4cGOQ3aK2IKXs3y37cDn6sCmBOKVDIv49TDw=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 8CQ+rwWlD4Rxe83XtdfB1EQ4GNXcMhlErjZn7BUXjes6iRDV6wwuH0gBAZgrsytsouOU0wDoKzJ4MfZBg+RCCQ==
-length: 1403
+edSignature: YZY6KdOD2DEYD4Lur2cZ6g5HPPUN/gEc6AxC3ixzerboVDeuUVwrunGyKhJUsiHeznXX9UctF5KVoephnjVTDQ==
+length: 1453
 -->
